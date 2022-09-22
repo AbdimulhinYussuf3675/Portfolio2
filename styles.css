@@ -13,15 +13,18 @@ body {
   border: 1px solid #ccc;
   box-shadow: 0 4px 10px 0 rgba(204, 77, 77, 0.2);
   background-repeat: no-repeat;
-  background-image: url(./images/background-images/Ellipse\ 8.png),
-    url(./images/background-images/Rectangle\ 7.png), url(./images/background-images/Ellipse\ 3.png);
+  background-image:
+    url(./images/Ellipse\ 8.png),
+    url(./images/Rectangle\ 7.png),
+    url(./images/Ellipse\ 3.png);
   background-position: center, left, right;
-
 }
 
 .circle {
   background-repeat: no-repeat;
-  background-image: url(./images/background-images/Ellipse\ 11.png),url(./images/background-images/Rectangle\ 5.jpg);
+  background-image:
+    url(./images/Ellipse\ 11.png),
+    url(./images/Rectangle\ 5.jpg);
   background-position: left, center;
 }
 
@@ -29,7 +32,7 @@ body {
   width: 76px;
   height: 30px;
   padding: 20px;
-  font-family: 'Poppins';
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -50,7 +53,6 @@ body {
   left: 500px;
   top: 30px;
   display: flex;
-
 }
 
 .intro {
@@ -65,7 +67,6 @@ body {
   font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
   padding: 20px;
   color: #1a2236;
   display: flex;
@@ -80,7 +81,7 @@ body {
 }
 
 .about-me {
-  font-family: 'Montserrat', 'Lato', 'Brandon Grotesk';
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -96,7 +97,6 @@ body {
   color: rgb(146, 146, 224);
   font-size: small;
   margin-left: 20px;
-
 }
 
 .column {
