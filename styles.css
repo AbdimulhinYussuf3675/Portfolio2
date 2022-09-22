@@ -95,12 +95,26 @@ body {
 
 .connect {
   color: rgb(146, 146, 224);
-  font-size: small;
   margin-left: 20px;
+  padding: 10px;
 }
 
 .column {
   float: left;
   width: 33;
-  padding: 1px;
 }
+
+.btn {
+  background-color: #59c0bb;
+  border: none;
+  color: rgb(5, 5, 5);
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.btn:hover { opacity: 0.6; }
