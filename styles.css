@@ -1,3 +1,106 @@
-h1 {
-  color: rgb(199, 255, 192);
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  height: 500px;
+  background: white;
+  width: 375px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 10px 0 rgba(204, 77, 77, 0.2);
+  background-repeat: no-repeat;
+  background-image: url(./images/background-images/Ellipse\ 8.png),
+    url(./images/background-images/Rectangle\ 7.png), url(./images/background-images/Ellipse\ 3.png);
+  background-position: center, left, right;
+
+}
+
+.circle {
+  background-repeat: no-repeat;
+  background-image: url(./images/background-images/Ellipse\ 11.png),url(./images/background-images/Rectangle\ 5.jpg);
+  background-position: left, center;
+}
+
+.logo {
+  width: 76px;
+  height: 30px;
+  padding: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #111214;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu-icon {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  left: 500px;
+  top: 30px;
+  display: flex;
+
+}
+
+.intro {
+  width: 350px;
+  height: 100px;
+  left: 16px;
+  top: 106px;
+}
+
+.intro h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 20px;
+  color: #1a2236;
+  display: flex;
+  align-items: center;
+}
+
+.summary {
+  width: 440px;
+  height: 170px;
+  left: 16px;
+  top: 100px;
+}
+
+.about-me {
+  font-family: 'Montserrat', 'Lato', 'Brandon Grotesk';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #272c36;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.connect {
+  color: rgb(146, 146, 224);
+  font-size: small;
+  margin-left: 20px;
+
+}
+
+.column {
+  float: left;
+  width: 33;
+  padding: 1px;
 }
