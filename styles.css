@@ -26,35 +26,39 @@ body {
     url(./images/Ellipse\ 11.png),
     url(./images/Rectangle\ 5.jpg);
   background-position: left, center;
+  padding: 1em;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .logo {
-  width: 76px;
-  height: 30px;
-  padding: 12px;
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  display: flex;
-  order: 0;
-  flex-grow: 0;
+  color: #fff;
+  margin: 0 0 0 0.7em;
+  font-weight: 900;
+  cursor: pointer;
+  padding: 0.5em;
 }
 
-.logo a {
+.logo-txt {
+  color: rgb(8, 8, 8);
   text-decoration: none;
-  color: rgb(16, 16, 17);
+  
+}
+.rec{
+  background-image: url(./images/Ellipse\ 15.png);
 }
 
-.menu-icon {
-  position: absolute;
-  width: 100;
-  height: auto;
-  left: 500px;
-  top: 18px;
-  display: flex;
+.menu-image {
+  cursor: pointer;
+  padding: 1.3em;
 }
+
 
 .intro {
   width: 350px;
@@ -84,9 +88,9 @@ body {
 .about-me {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 24px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
   letter-spacing: -0.01em;
   color: #272c36;
   margin-left: 20px;
@@ -121,6 +125,6 @@ body {
 
 .btn:hover { opacity: 0.6; }
 
-.row {
+.row{
   padding: 10px;
 }
