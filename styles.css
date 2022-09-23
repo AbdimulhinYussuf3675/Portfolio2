@@ -48,9 +48,9 @@ body {
 .logo-txt {
   color: rgb(8, 8, 8);
   text-decoration: none;
-  
 }
-.rec{
+
+.rec {
   background-image: url(./images/Ellipse\ 15.png);
 }
 
@@ -58,7 +58,6 @@ body {
   cursor: pointer;
   padding: 1.3em;
 }
-
 
 .intro {
   width: 350px;
@@ -125,6 +124,6 @@ body {
 
 .btn:hover { opacity: 0.6; }
 
-.row{
+.row {
   padding: 10px;
 }
