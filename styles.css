@@ -31,27 +31,28 @@ body {
 .logo {
   width: 76px;
   height: 30px;
-  padding: 20px;
+  padding: 12px;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   display: flex;
-  align-items: center;
-  text-align: center;
-  color: #111214;
-  flex: none;
   order: 0;
   flex-grow: 0;
 }
 
+.logo a {
+  text-decoration: none;
+  color: rgb(16, 16, 17);
+}
+
 .menu-icon {
   position: absolute;
-  width: 20px;
-  height: 14px;
+  width: 100;
+  height: auto;
   left: 500px;
-  top: 30px;
+  top: 18px;
   display: flex;
 }
 
@@ -81,11 +82,11 @@ body {
 }
 
 .about-me {
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: -0.01em;
   color: #272c36;
   margin-left: 20px;
@@ -108,13 +109,18 @@ body {
   background-color: #59c0bb;
   border: none;
   color: rgb(5, 5, 5);
-  padding: 10px;
+  padding: 11px;
   text-align: center;
   font-size: 10px;
   margin: 4px 2px;
   opacity: 1;
   transition: 0.3s;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .btn:hover { opacity: 0.6; }
+
+.row {
+  padding: 10px;
+}
