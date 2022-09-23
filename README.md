@@ -4,7 +4,7 @@
 
 > In this project, I set up a "Mobile First Portfolio" repository . No complex coding is required for this exercise. The goal here is to master all of the tools and best practices of HTML and CSS in setting up a GitHub repository
 
-![](images/Screenshot%20from%202022-09-22%2023-30-50.png)
+![](images/Screenshot%20from%202022-09-23%2019-33-42.png)
 
 
 ## Built With
