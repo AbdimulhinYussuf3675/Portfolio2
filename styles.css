@@ -5,12 +5,22 @@
 body {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
 }
 
 .container {
+  height: 500px;
+  background: white;
+  width: 375px;
+  background-repeat: no-repeat;
+  background-image:
+    url(./images/Ellipse\ 8.png),
+    url(./images/Rectangle\ 7.png),
+    url(./images/Ellipse\ 3.png);
+  background-position: center, left, right;
+}
+
+.headline {
   height: 500px;
   background: white;
   width: 375px;
@@ -47,7 +57,7 @@ body {
   font-size: 18px;
   line-height: 20px;
   cursor: pointer;
-  padding: 0.5em;
+  margin-left: 20px;
 }
 
 .logo-txt {
@@ -79,7 +89,7 @@ body {
   color: #1a2236;
   display: flex;
   align-items: center;
-  padding: 0.5em 0 0 1em;
+  margin-left: 20px;
 }
 
 .summary {
@@ -105,7 +115,6 @@ body {
 .connect {
   color: rgb(146, 146, 224);
   margin-left: 20px;
-  padding: 10px;
 }
 
 .column {
@@ -125,6 +134,10 @@ body {
 
 .btn:hover { opacity: 0.6; }
 
-.row {
-  padding: 10px;
+ul {
+  list-style: none;
+  margin-left: -20px;
+  
 }
+
+
