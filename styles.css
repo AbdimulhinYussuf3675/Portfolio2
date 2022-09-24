@@ -132,9 +132,271 @@ body {
   color: #6f7adf;
 }
 
-.btn:hover { opacity: 0.6; }
+.btn:hover {
+  opacity: 0.6;
+}
 
-ul {
+.images {
   list-style: none;
   margin-left: -20px;
+}
+
+.grid1 {
+  width: 295px;
+  height: 220px;
+  flex: none;
+  margin-left: 20px;
+}
+
+.details {
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  line-height: 30px;
+  color: #172b4d;
+  flex: none;
+  margin-left: 20px;
+}
+
+.specific {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: -16px;
+}
+
+#fade {
+  opacity: 0.6;
+}
+
+.brief {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  order: 1;
+}
+
+.html-css {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50px);
+  grid-gap: 10px;
+  margin-left: -59px;
+}
+
+.img2 {
+  margin-left: 19px;
+  width: 53px;
+  height: 24px;
+}
+
+.see {
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  font-size: 17px;
+  color: #396df2;
+  border-color: #396df2;
+}
+
+.grid3 {
+  margin-top: 320px;
+  margin-left: 20px;
+}
+
+.tonic2 {
+  margin-top: 22em;
+}
+
+.about-myself {
+  margin-top: 350px;
+}
+
+.me {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #272c36;
+  margin-left: 20px;
+  margin-top: -12px;
+}
+
+.get {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.resume {
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  font-size: 17px;
+  color: #396df2;
+  border-color: #396df2;
+}
+
+.lang {
+  margin-top: 50px;
+  margin-left: 20px;
+  position: absolute;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.icons {
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+.comp {
+  margin-left: 20px;
+}
+
+.comp ul {
+  list-style: none;
+}
+
+.foward {
+  margin-left: 270px;
+  margin-top: -40px;
+}
+
+.h3 {
+  margin-left: 20px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+}
+
+.contat {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-top: -50px;
+  padding-top: 70px;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  background-image: url(./images/lit.png), url(./images/kiki.png), url(./images/Rectangle\ 4.png);
+  background-repeat: no-repeat;
+  background-position: center, right, left;
+}
+
+.contact-me {
+  background-image: url(./images/Contact\ me.png);
+  margin-top: 70px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  width: 375px;
+  height: 700px;
+  text-align: center;
+  color: white;
+}
+
+.para {
+  display: flex;
+  margin-left: 40px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+.form {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-button {
+  margin-left: 20px;
+  background-image: url(./images/Rectangle\ 4.png), url(./images/ecc.png);
+  background-repeat: no-repeat;
+  background-position: center, right;
+}
+
+.active,
+.btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+.active,
+.resume:hover {
+  background-color: rgb(26, 68, 206);
+  color: rgb(255, 255, 255);
+}
+
+.active,
+.see:hover {
+  background-color: rgb(26, 68, 206);
+  color: rgb(255, 255, 255);
+}
+
+.resume:focus {
+  background-color: blue;
+}
+
+.see:focus {
+  background-color: blue;
+}
+
+.frame {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.icon {
+  margin-left: -10px;
+  margin-top: 13px;
+  padding: 10px;
+}
+
+.tec {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  margin-left: 80px;
+  margin-top: -50px;
 }
