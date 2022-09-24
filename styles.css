@@ -181,7 +181,8 @@ body {
 .html-css {
   list-style: none;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fill, 50px);
+  grid-gap: 10px;
   margin-left: -59px;
 }
 
@@ -265,13 +266,17 @@ body {
   line-height: 24px;
 }
 
-.icon {
+.icons {
   margin-left: 300px;
   margin-top: 40px;
 }
 
 .comp {
   margin-left: 20px;
+}
+
+.comp ul {
+  list-style: none;
 }
 
 .foward {
@@ -348,6 +353,40 @@ textarea {
   background-position: center, right;
 }
 
-.framework-skills {
-  margin-left: 20px;
+.active,
+.btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+.active,
+.resume:hover {
+  background-color: rgb(236, 225, 225);
+  color: white;
+}
+
+.frame {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.icon {
+  margin-left: -10px;
+  margin-top: 13px;
+  padding: 10px;
+}
+
+.tec {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  margin-left: 80px;
+  margin-top: -50px;
 }
