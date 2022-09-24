@@ -207,17 +207,13 @@ body {
   border-color: #396df2;
 }
 
-.see:hover {
-  opacity: 0.6;
-}
-
 .grid3 {
   margin-top: 320px;
   margin-left: 20px;
 }
 
 .tonic2 {
-  margin-top: 320px;
+  margin-top: 22em;
 }
 
 .about-myself {
@@ -361,8 +357,22 @@ textarea {
 
 .active,
 .resume:hover {
-  background-color: rgb(236, 225, 225);
-  color: white;
+  background-color: rgb(26, 68, 206);
+  color: rgb(255, 255, 255);
+}
+
+.active,
+.see:hover {
+  background-color: rgb(26, 68, 206);
+  color: rgb(255, 255, 255);
+}
+
+.resume:focus {
+  background-color: blue;
+}
+
+.see:focus {
+  background-color: blue;
 }
 
 .frame {
