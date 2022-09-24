@@ -154,10 +154,9 @@ body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   line-height: 30px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   margin-left: 20px;
-
 }
 
 .specific {
@@ -183,10 +182,7 @@ body {
   list-style: none;
   display: grid;
   grid-template-columns: auto auto auto;
-
   margin-left: -59px;
-
-
 }
 
 .img2 {
@@ -206,8 +202,8 @@ body {
   letter-spacing: 0.03em;
   font-style: normal;
   font-size: 17px;
-  color: #396DF2;
-  border-color: #396DF2;
+  color: #396df2;
+  border-color: #396df2;
 }
 
 .see:hover {
@@ -242,11 +238,6 @@ body {
 .get {
   margin-top: 70px;
   margin-left: 20px;
-
-}
-
-.see:hover {
-  opacity: 0.6;
 }
 
 .resume {
@@ -260,8 +251,8 @@ body {
   letter-spacing: 0.03em;
   font-style: normal;
   font-size: 17px;
-  color: #396DF2;
-  border-color: #396DF2;
+  color: #396df2;
+  border-color: #396df2;
 }
 
 .lang {
@@ -272,7 +263,6 @@ body {
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-
 }
 
 .icon {
@@ -310,10 +300,7 @@ body {
   text-align: center;
   background-image: url(./images/lit.png), url(./images/kiki.png), url(./images/Rectangle\ 4.png);
   background-repeat: no-repeat;
-  background-position: center, right,left ;
-
-
-
+  background-position: center, right, left;
 }
 
 .contact-me {
@@ -324,21 +311,21 @@ body {
   height: 700px;
   text-align: center;
   color: white;
-
-
 }
 
 .para {
   display: flex;
   margin-left: 40px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -354,9 +341,13 @@ input[type=text], select, textarea {
   padding: 20px;
 }
 
-.form-button{
+.form-button {
   margin-left: 20px;
   background-image: url(./images/Rectangle\ 4.png), url(./images/ecc.png);
   background-repeat: no-repeat;
   background-position: center, right;
+}
+
+.framework-skills {
+  margin-left: 20px;
 }
