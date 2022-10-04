@@ -316,7 +316,7 @@ body {
 
 .para {
   display: flex;
-  margin-left: 40px;
+  margin-left: 30px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -341,8 +341,6 @@ textarea {
 .form1 {
   border-radius: 5px;
   display: flex;
-  /* width: 700px; */
-  /* padding: 20px; */
 }
 
 .form-button {
@@ -406,5 +404,5 @@ textarea {
 
 .widgets {
   list-style: none;
- padding-left: 20px;
+  padding-left: 20px;
 }
