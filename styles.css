@@ -327,7 +327,7 @@ body {
 input[type=text],
 select,
 textarea {
-  width: 100%;
+  /* width: 100%; */
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -335,11 +335,14 @@ textarea {
   margin-top: 6px;
   margin-bottom: 10px;
   resize: vertical;
+  width: 328px;
 }
 
-.form {
+.form1 {
   border-radius: 5px;
-  padding: 20px;
+  display: flex;
+  /* width: 700px; */
+  /* padding: 20px; */
 }
 
 .form-button {
@@ -399,4 +402,9 @@ textarea {
   display: flex;
   margin-left: 80px;
   margin-top: -50px;
+}
+
+.widgets {
+  list-style: none;
+ padding-left: 20px;
 }
