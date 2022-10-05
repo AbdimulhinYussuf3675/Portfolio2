@@ -325,7 +325,7 @@ body {
   margin-right: 20;
 }
 
-input[type=text],
+input,
 select,
 textarea {
   /* width: 100%; */
