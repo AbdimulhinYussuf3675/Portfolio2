@@ -322,6 +322,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  margin-right: 20;
 }
 
 input[type=text],
@@ -404,5 +405,5 @@ textarea {
 
 .widgets {
   list-style: none;
-  padding-left: 20px;
+  padding: 30px;
 }
