@@ -6,23 +6,20 @@ body {
   min-height: 100vh;
   display: flex;
   position: relative;
+  background: #F7F7F9;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 .container {
-  height: 500px;
-  background: white;
+  height: 600px;
+  background-image: url(./images/head.png);
   width: 375px;
   background-repeat: no-repeat;
-  background-image:
-    url(./images/Ellipse\ 8.png),
-    url(./images/Rectangle\ 7.png),
-    url(./images/Ellipse\ 3.png);
-  background-position: center, left, right;
+  border-bottom-left-radius: 100px;
 }
 
 .headline {
   height: 500px;
-  background: white;
   width: 375px;
   background-repeat: no-repeat;
   background-image:
@@ -51,7 +48,6 @@ body {
 
 .logo {
   color: #fff;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   margin: 0 0 0 0.7em;
   font-weight: 700;
   font-size: 18px;
@@ -75,10 +71,9 @@ body {
 }
 
 .intro {
-  width: 350px;
-  height: 100px;
   left: 16px;
   top: 106px;
+  padding-top: 30px;
 }
 
 .intro h1 {
@@ -100,7 +95,6 @@ body {
 }
 
 .about-me {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -125,7 +119,6 @@ body {
 
 .btn {
   text-decoration: none;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: normal;
   font-weight: 500;
   line-height: 24px;
@@ -141,22 +134,18 @@ body {
   margin-left: -20px;
 }
 
-.grid1 {
-  width: 295px;
-  height: 220px;
-  flex: none;
-  margin-left: 20px;
+.works{
+  padding-top: 3.4em;
 }
 
-.details {
-  width: 295px;
-  height: 36px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  line-height: 30px;
-  color: #172b4d;
-  flex: none;
+.grid {
+  padding: 16px;
+  height: 552px;
+  border: 1px solid #dfe1e6;
+  background-color: white;
+  border-radius: 16px;
   margin-left: 20px;
+  margin-bottom: 60px;
 }
 
 .specific {
@@ -170,7 +159,6 @@ body {
 }
 
 .brief {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -195,7 +183,6 @@ body {
 .see {
   border-radius: 10px;
   padding: 12px 20px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 24px;
   display: flex;
@@ -207,21 +194,12 @@ body {
   border-color: #396df2;
 }
 
-.grid3 {
-  margin-top: 320px;
-  margin-left: 20px;
-}
-
-.tonic2 {
-  margin-top: 22em;
-}
-
 .about-myself {
-  margin-top: 350px;
+  margin-top: 100px;
+  background-image: url(./images/base_my.png);
 }
 
 .me {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -240,7 +218,6 @@ body {
 .resume {
   border-radius: 10px;
   padding: 12px 20px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 24px;
   display: flex;
@@ -256,7 +233,6 @@ body {
   margin-top: 50px;
   margin-left: 20px;
   position: absolute;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
@@ -282,7 +258,6 @@ body {
 
 .h3 {
   margin-left: 20px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -290,7 +265,6 @@ body {
 }
 
 .contat {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
   margin-top: -50px;
   padding-top: 70px;
@@ -307,7 +281,6 @@ body {
 .contact-me {
   background-image: url(./images/Contact\ me.png);
   margin-top: 70px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   width: 375px;
   height: 700px;
   text-align: center;
@@ -317,7 +290,6 @@ body {
 .para {
   display: flex;
   margin-left: 30px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -378,7 +350,6 @@ textarea {
 }
 
 .frame {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -394,7 +365,6 @@ textarea {
 }
 
 .tec {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -407,3 +377,4 @@ textarea {
   list-style: none;
   padding: 30px;
 }
+
