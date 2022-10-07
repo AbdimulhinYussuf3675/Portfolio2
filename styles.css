@@ -412,9 +412,6 @@ textarea {
   background-color: rgb(59, 32, 212);
 }
 
-
-/* for desktop version */
-
 @media all and (min-width: 768px) {
   .logo-txt {
     font-size: 18px;
