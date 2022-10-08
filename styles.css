@@ -17,7 +17,6 @@ body {
 .container {
   height: 600px;
   padding: 16px;
-  height: 630px;
   border: 1px solid #dfe1e6;
   background-color: white;
   border-radius: 16px;
@@ -52,7 +51,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 15px 20px;
-
 }
 
 .logo {
@@ -221,7 +219,7 @@ body {
 .about-myself {
   margin-top: 100px;
   background-color: white;
-  border-radius: 0px 114px 0px 0px;
+  border-radius: 0 114px 0 0;
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -312,12 +310,11 @@ body {
 
 .contact-me {
   border: 1px solid #dfe1e6;
-  background-color: #6070FF;
+  background-color: #6070ff;
   margin-top: 70px;
   text-align: center;
   color: white;
 }
-
 
 .para {
   margin-left: 30px;
@@ -471,6 +468,17 @@ textarea {
     line-height: 60px;
   }
 
+  .details h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .languages h1 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #344563;
+  }
+
   .headline .intro h1 {
     font-size: 48px;
     font-style: normal;
@@ -481,7 +489,6 @@ textarea {
     align-items: center;
     margin-left: 100px;
   }
-
 
   .about-me {
     font-style: normal;
@@ -506,7 +513,6 @@ textarea {
       url(./images/Ellipse\ 3\.png);
     background-position: 40, center, 70, 540;
   }
-
 
   .works {
     margin: 0;
@@ -553,11 +559,6 @@ textarea {
     max-width: 429px;
   }
 
-  .details h1 {
-    font-size: 40px;
-    line-height: 52px;
-  }
-
   #hr2 {
     margin: 20px 0;
   }
@@ -589,7 +590,7 @@ textarea {
     margin: 0 142px;
     padding: 142px 70px;
   }
-  
+
   .images {
     list-style: none;
     margin-left: 55px;
@@ -605,12 +606,6 @@ textarea {
   .languages {
     margin-top: 20px;
     margin-left: 30px;
-  }
-
-  .languages h1 {
-    font-weight: 500;
-    font-size: 24px;
-    color: #344563;
   }
 
   .icon {
@@ -644,9 +639,9 @@ textarea {
 
   .contact-me {
     border: 1px solid #dfe1e6;
-    background-color: #6070FF;
+    background-color: #6070ff;
     margin-top: 70px;
-    border-radius: 170px 0px 0px 0px;
+    border-radius: 170px 0 0 0;
     color: white;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -659,11 +654,10 @@ textarea {
     padding-top: 70px;
     font-style: normal;
     font-size: 40px;
-    background-image: url(./images/Ellipse\ 13.png), url(./images/Ellipse\ 14.png), url(./images/Ellipse\ 13.png), url(./images/languages/hss.svg) ;
+    background-image: url(./images/Ellipse\ 13.png), url(./images/Ellipse\ 14.png), url(./images/Ellipse\ 13.png), url(./images/languages/hss.svg);
     background-position: 90, 550, 1100, 1400;
     line-height: 52px;
     text-align: center;
-
   }
 
   .para {
@@ -671,8 +665,6 @@ textarea {
     display: contents;
     font-size: 20px;
     line-height: 28px;
-
-
   }
 
   .widgets {
