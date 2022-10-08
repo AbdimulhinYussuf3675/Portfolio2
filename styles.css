@@ -684,6 +684,8 @@ textarea {
 
   .see:hover {
     width: 300px;
+    transform: scale(1.25);
+    transform: translate(42px, 18px);
   }
 
   input,
