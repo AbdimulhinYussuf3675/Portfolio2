@@ -678,6 +678,12 @@ textarea {
 
   .see {
     display: initial;
+    background: red;
+    transition: width 2s;
+  }
+
+  .see:hover {
+    width: 300px;
   }
 
   input,
