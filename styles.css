@@ -506,7 +506,6 @@ textarea {
     animation-name: slidein;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
   }
 
   @keyframes slidein {
@@ -514,7 +513,7 @@ textarea {
       margin-left: 100%;
       width: 300%;
     }
-  
+
     to {
       margin-left: 0%;
       width: 100%;
@@ -682,7 +681,6 @@ textarea {
     display: contents;
     font-size: 20px;
     line-height: 28px;
-
   }
 
   .widgets {
