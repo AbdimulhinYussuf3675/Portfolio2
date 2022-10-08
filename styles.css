@@ -2,28 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   min-height: 100vh;
   display: flex;
   position: relative;
+  background: #f7f7f9;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 .container {
-  height: 500px;
-  background: white;
-  width: 375px;
+  height: 600px;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  background-color: white;
+  border-radius: 16px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  width: 100%;
   background-repeat: no-repeat;
-  background-image:
-    url(./images/Ellipse\ 8.png),
-    url(./images/Rectangle\ 7.png),
-    url(./images/Ellipse\ 3.png);
-  background-position: center, left, right;
+  border-bottom-left-radius: 100px;
 }
 
 .headline {
   height: 500px;
-  background: white;
-  width: 375px;
+  width: 100%;
   background-repeat: no-repeat;
   background-image:
     url(./images/Ellipse\ 8.png),
@@ -38,20 +44,17 @@ body {
     url(./images/Ellipse\ 11.png),
     url(./images/Rectangle\ 5.jpg);
   background-position: left, center;
-  padding: 1em;
 }
 
 .toolbar {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  margin: 15px 20px;
 }
 
 .logo {
   color: #fff;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   margin: 0 0 0 0.7em;
   font-weight: 700;
   font-size: 18px;
@@ -61,7 +64,7 @@ body {
 }
 
 .logo-txt {
-  color: rgb(8, 8, 8);
+  color: #6070ff(8, 8, 8);
   text-decoration: none;
 }
 
@@ -75,10 +78,9 @@ body {
 }
 
 .intro {
-  width: 350px;
-  height: 100px;
   left: 16px;
   top: 106px;
+  padding-top: 30px;
 }
 
 .intro h1 {
@@ -100,7 +102,6 @@ body {
 }
 
 .about-me {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -117,6 +118,11 @@ body {
   margin-left: 20px;
 }
 
+.widgets {
+  list-style: none;
+  padding: 30px;
+}
+
 .column {
   float: left;
   width: 33;
@@ -125,7 +131,6 @@ body {
 
 .btn {
   text-decoration: none;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: normal;
   font-weight: 500;
   line-height: 24px;
@@ -141,22 +146,28 @@ body {
   margin-left: -20px;
 }
 
-.grid1 {
-  width: 295px;
-  height: 220px;
-  flex: none;
-  margin-left: 20px;
+.works {
+  padding-top: 3.4em;
 }
 
-.details {
-  width: 295px;
-  height: 36px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  line-height: 30px;
-  color: #172b4d;
-  flex: none;
+.grid {
+  padding: 16px;
+  height: 600px;
+  border: 1px solid #dfe1e6;
+  background-color: white;
+  border-radius: 16px;
   margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+.grid2 {
+  padding: 16px;
+  height: 630px;
+  border: 1px solid #dfe1e6;
+  background-color: white;
+  border-radius: 16px;
+  margin-left: 20px;
+  margin-bottom: 60px;
 }
 
 .specific {
@@ -170,7 +181,6 @@ body {
 }
 
 .brief {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -195,7 +205,6 @@ body {
 .see {
   border-radius: 10px;
   padding: 12px 20px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 24px;
   display: flex;
@@ -207,21 +216,15 @@ body {
   border-color: #396df2;
 }
 
-.grid3 {
-  margin-top: 320px;
-  margin-left: 20px;
-}
-
-.tonic2 {
-  margin-top: 22em;
-}
-
 .about-myself {
-  margin-top: 350px;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 0 114px 0 0;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .me {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -240,7 +243,6 @@ body {
 .resume {
   border-radius: 10px;
   padding: 12px 20px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 24px;
   display: flex;
@@ -256,7 +258,6 @@ body {
   margin-top: 50px;
   margin-left: 20px;
   position: absolute;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
@@ -269,6 +270,7 @@ body {
 
 .comp {
   margin-left: 20px;
+  display: inline;
 }
 
 .comp ul {
@@ -282,15 +284,17 @@ body {
 
 .h3 {
   margin-left: 20px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   display: flex;
 }
 
+.another {
+  display: none;
+}
+
 .contat {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 700;
   margin-top: -50px;
   padding-top: 70px;
@@ -305,19 +309,15 @@ body {
 }
 
 .contact-me {
-  background-image: url(./images/Contact\ me.png);
+  border: 1px solid #dfe1e6;
+  background-color: #6070ff;
   margin-top: 70px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  width: 375px;
-  height: 700px;
   text-align: center;
   color: white;
 }
 
 .para {
-  display: flex;
   margin-left: 30px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -339,9 +339,8 @@ textarea {
   width: 315px;
 }
 
-.form1 {
-  border-radius: 5px;
-  display: flex;
+.nav-display {
+  display: none;
 }
 
 .form-button {
@@ -378,7 +377,6 @@ textarea {
 }
 
 .frame {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -393,8 +391,11 @@ textarea {
   padding: 10px;
 }
 
+.icon2 {
+  display: none;
+}
+
 .tec {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -403,7 +404,306 @@ textarea {
   margin-top: -50px;
 }
 
-.widgets {
-  list-style: none;
-  padding: 30px;
+#hr2 {
+  height: 1px;
+  border-width: 0;
+  color: rgb(40, 38, 165);
+  background-color: rgb(59, 32, 212);
+}
+
+/* for desktop version */
+
+@media all and (min-width: 768px) {
+  .logo-txt {
+    font-size: 24px;
+    margin-left: -100%;
+  }
+
+  .toolbar {
+    margin: 25px 155px;
+  }
+
+  .menu-image {
+    display: none;
+  }
+
+  .nav-display {
+    display: flex;
+  }
+
+  nav li {
+    list-style-type: none;
+    margin: 0 19px;
+  }
+
+  nav li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #344563(8, 8, 8);
+  }
+
+  .headline {
+    background-image: unset;
+    background-image:
+      url(./images/Ellipse\ 4.png),
+      url(./images/Rectangle\ 5.jpg),
+      url(./images/Ellipse\ 11\.png);
+    background-position: top, center, 300px;
+    background-position-y: 299px;
+    position: inherit;
+  }
+
+  .intro {
+    left: 16px;
+    top: 106px;
+    padding-top: 30px;
+  }
+
+  .intro h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    color: #1a2236;
+    line-height: 60px;
+  }
+
+  .details h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .languages h1 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #344563;
+  }
+
+  .headline .intro h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    color: #1a2236;
+    display: flex;
+    line-height: 60px;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .about-me {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #344563;
+    margin-left: 99px;
+    margin-top: -15px;
+    flex: none;
+    width: 920px;
+    height: 98px;
+  }
+
+  .circle {
+    background-repeat: no-repeat;
+    background-image:
+      url(./images/Ellipse\ 12.png),
+      url(./images/Rectangle\ 5.jpg),
+      url(./images/Rectangle\ 5.jpg),
+      url(./images/Ellipse\ 3\.png);
+    background-position: 40, center, 70, 540;
+  }
+
+  .works {
+    margin: 0;
+    padding: 142px 142px;
+    align-items: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    height: 500px;
+    width: 100%;
+  }
+
+  .grid2 {
+    display: grid;
+    column-gap: 77px;
+    grid-template-columns: 60% 30%;
+    height: 500px;
+    width: 100%;
+  }
+
+  .grid .imag {
+    height: 400px;
+  }
+
+  .grid2 .imag {
+    height: 400px;
+    order: 2;
+    justify-self: end;
+    margin-left: 220px;
+  }
+
+  .brk {
+    display: none;
+  }
+
+  .grid.details {
+    max-width: 429px;
+  }
+
+  .grid2 .details {
+    order: 1;
+    max-width: 429px;
+  }
+
+  #hr2 {
+    margin: 20px 0;
+  }
+
+  #hr1 {
+    margin: 20px 0;
+  }
+
+  .specific {
+    font-size: 18px;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: repeat(auto-fill);
+    grid-gap: 10px;
+    margin-left: -89px;
+  }
+
+  .about-myself {
+    margin-top: 100px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+  }
+
+  .mine {
+    display: grid;
+    grid-template-columns: 47% 60%;
+    margin: 0 142px;
+    padding: 142px 70px;
+  }
+
+  .images {
+    list-style: none;
+    margin-left: 55px;
+  }
+
+  .me {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .languages {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .icon2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #iconhtml {
+    margin-left: 146px;
+    margin-top: -122px;
+  }
+
+  #iconcss {
+    margin-left: 307px;
+    margin-top: -122px;
+  }
+
+  .icons {
+    margin-left: 494px;
+    margin-top: 40px;
+  }
+
+  .foward {
+    margin-left: 504px;
+    margin-top: -40px;
+  }
+
+  .contact-me {
+    border: 1px solid #dfe1e6;
+    background-color: #6070ff;
+    margin-top: 70px;
+    border-radius: 170px 0 0 0;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+  }
+
+  .contat {
+    font-weight: 700;
+    margin-top: -50px;
+    padding-top: 70px;
+    font-style: normal;
+    font-size: 40px;
+    background-image: url(./images/Ellipse\ 13.png), url(./images/Ellipse\ 14.png), url(./images/Ellipse\ 13.png), url(./images/languages/hss.svg);
+    background-position: 90, 550, 1100, 1400;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .para {
+    display: unset;
+    display: contents;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .widgets {
+    list-style: none;
+    padding: 0;
+    display: block;
+    background-image: url(./images/ecc.png), url(./images/kiki.png);
+    background-position: 90, 1300;
+    background-repeat: no-repeat;
+  }
+
+  .see {
+    display: initial;
+  }
+
+  input,
+  select,
+  textarea {
+    padding: 19px;
+    width: 471px;
+    border-radius: 0;
+  }
+
+  .img2 {
+    margin-left: -10px;
+    width: 53px;
+    height: 24px;
+  }
+
+  #move {
+    margin-left: 10px;
+  }
+
+  #btn1 {
+    margin-left: 76px;
+  }
+
+  .portfolio .images {
+    list-style: none;
+    margin-left: -16px;
+  }
 }
