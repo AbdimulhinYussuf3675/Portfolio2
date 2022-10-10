@@ -502,22 +502,6 @@ textarea {
     flex: none;
     width: 920px;
     height: 98px;
-    animation-duration: 10s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
   }
 
   .circle {
@@ -692,17 +676,8 @@ textarea {
     background-repeat: no-repeat;
   }
 
-  /* animation: ; */
   .see {
     display: initial;
-    background: red;
-    transition: width 2s;
-  }
-
-  .see:hover {
-    width: 300px;
-    transform: scale(1.25);
-    transform: translate(42px, 18px);
   }
 
   input,
