@@ -376,8 +376,6 @@ input:focus:invalid {
   box-shadow: none;
 }
 
-
-
 /* for desktop */
 @media (min-width: 768px) {
   .mobile-menu {
