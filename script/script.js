@@ -26,7 +26,7 @@ const data = [
     image: './images/Multpost2.svg',
     description: 'A web application that allows users to get information about everything happening in his/her neighborhood.',
     liveDemo: 'https://kanairo-watch.herokuapp.com/',
-    code: 'https://github.com/AbdimulhinYussuf3675/home-watch',
+    code: 'https://github.com/AbdimulhinYussuf3675/home-watch ',
   },
 ];
 
