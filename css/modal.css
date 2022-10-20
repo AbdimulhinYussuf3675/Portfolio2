@@ -117,6 +117,7 @@
 
   .modal .skills {
     width: 75%;
+    margin-left: -61px;
   }
 
   .modal-wrapper {
