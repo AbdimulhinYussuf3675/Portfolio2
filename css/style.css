@@ -377,6 +377,17 @@ input:focus:invalid {
   box-shadow: none;
 }
 
+.error-msg {
+  display: none;
+  color: rgb(12, 11, 11);
+  font-size: 15px;
+  font-family: inherit;
+  background-color: red;
+  width: inherit;
+  font-style: italic;
+  
+}
+
 /* for desktop */
 @media (min-width: 768px) {
   .mobile-menu {
