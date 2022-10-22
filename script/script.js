@@ -121,11 +121,21 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+const fullName = document.querySelector('#name');
+const email = document.querySelector('#email');
+const message = document.querySelector('#message');
+
+const inputInfo = {
+  fullName: '',
+  email: '',
+  message: '',
+};
+
 const saveData = () => {
   inputInfo.fullName = fullName.value;
   inputInfo.email = email.value;
   inputInfo.message = message.value;
-  // Stringify data
+
   const storeData = JSON.stringify(inputInfo);
 
   localStorage.setItem('userInfo', storeData);
