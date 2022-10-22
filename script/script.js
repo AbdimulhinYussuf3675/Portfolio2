@@ -120,3 +120,31 @@ form.addEventListener('submit', (e) => {
     form.elements.email.style.border = '1px solid red';
   }
 });
+
+const fullName = document.querySelector('#name');
+const email = document.querySelector('#email');
+const message = document.querySelector('#message');
+
+const inputInfo = {
+  fullName: '',
+  email: '',
+  message: '',
+};
+
+// eslint-disable-next-line no-unused-vars
+const saveData = () => {
+  inputInfo.fullName = fullName.value;
+  inputInfo.email = email.value;
+  inputInfo.message = message.value;
+
+  const storeData = JSON.stringify(inputInfo);
+
+  localStorage.setItem('userInfo', storeData);
+};
+
+const getData = localStorage.getItem('userInfo');
+const newData = JSON.parse(getData);
+
+fullName.value = newData.fullName;
+email.value = newData.email;
+message.value = newData.message;
