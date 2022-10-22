@@ -131,6 +131,7 @@ const inputInfo = {
   message: '',
 };
 
+// eslint-disable-next-line no-unused-vars
 const saveData = () => {
   inputInfo.fullName = fullName.value;
   inputInfo.email = email.value;
