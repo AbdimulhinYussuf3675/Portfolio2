@@ -120,3 +120,20 @@ form.addEventListener('submit', (e) => {
     form.elements.email.style.border = '1px solid red';
   }
 });
+
+const saveData = () => {
+  inputInfo.fullName = fullName.value;
+  inputInfo.email = email.value;
+  inputInfo.message = message.value;
+  // Stringify data
+  const storeData = JSON.stringify(inputInfo);
+
+  localStorage.setItem('userInfo', storeData);
+};
+
+const getData = localStorage.getItem('userInfo');
+const newData = JSON.parse(getData);
+
+fullName.value = newData.fullName;
+email.value = newData.email;
+message.value = newData.message;
